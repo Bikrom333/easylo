@@ -64,164 +64,133 @@
   
   /* CSS */
 
-  .row>*{
-    width: auto;
-  }
-
-  .navbar-toggler {
-       margin-left: 124px;
-
+ 
+  
+.navbar-toggler{
+    margin-right: -280px;
+    mainrg-left: 185px;
 }
 
 .banner {
-    width: 100%;
-    height: 175vh;
+  width: 1407px;
+    height: 200vh;
+}
+.banner .container{
+   /* width: auto;*/
+}
+.banner-left, .banner-right {
+    height: 87vh;
   }
 .b-title{
-    margin-left: -92px;
-    font-size: 42px;
-    padding-right: 437px;
-    margin-right: 423px;
+    font-size: 61px;
+    margin: 0px 170px;
+    
   }
 .line{
-    margin-left: -92px;
+    margin: 28px 170px;
 
   }
 .b-text{
-    margin-left: -92px;
-    margin-right: 433px;
-    padding-right: 421px;
-    font-size: 16px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 
   }
 .b-btn{
-    margin-left: -92px;
-
-  }
+  margin-left: 172px;
+}
 .form-box{
-    margin-top: -155px;
-    margin-left: -200px;
-    padding: 44px 5px 35px 5px;
+  margin-top: -60px;
+  margin-left: 80px;
+  padding: 45px 25px 35px 25px;
+  margin-right: -98px;
 
-  }
-  .business .row>* {
-    width: 30%;
+}
+.business .container{
+  margin-left: 99px;
+}
+.business .bu-content{
+   margin-left: -42px; 
+}
+.business .bu-icon{
+  margin-left: 130px;
 }
 
 .business h2{
-   font-size: 24px;
+   font-size: 40px;
   }
-  .bu-content .line4{
-    margin-left: 88px;
-
-  }
-  .business .bu-content p{
-    margin: 16px -149px;
-    text-align: center;
-    font-size: 14px
-  }
-  .bu-icon{
-    text-align: left; 
-    margin-left: 140px;
-    margin-left: -10px;
-  }
+.bu-content .line4{
+  margin-left: auto;
+}
+.business .bu-content p{
+  margin: 20px -149px;
+  text-align: center;
+  font-size: 14px
+}
+.bu-icon{
+  text-align: center; 
+  margin-left: 140px;
+  margin-left: -10px;
+}
 .projects{
-    width: 1379px;
-  }
-.p-tag{
+  width: 1406px;
+}
+/*.p-tag{
     right: -94px;
   }
-.img-fluid{
-    margin-left: 210px;
-  }
+*/.img-fluid{
+  margin-left: 210px;
+ }
 .pro-right{
-    margin-left: 20px;
-    margin-top: 86px;
-  }
-.pro-right h2{
-    padding-right: 236px;
-    margin-right: 235px;
-  }
+  margin-left: 20px;
+  margin-top: 86px;
+}
+
+.pro-right h2 {
+    margin-right: 150px;
+    padding-right: 150px;
+}
 .pro-right p{
-    margin-right: 230px;
-    padding-right: 230px;
-   }
+  margin-right: 166px;
+  padding-right: 189px;
+}
 .bu-icon{
-    display: block;
-    text-align: left;
-    }
-.projects {
-    width: auto;
+  text-align: left;
 }
 
 .img-fluid {
-    margin-left: -61px;
-    max-width: 82%;
-    height: auto;
-
-  }
+  margin-left: 135px;
+  max-width: 170vh;
+  height: 130vh;
+}
 .p-tag {
-    right: 151px;
-    bottom: -20px;
-   }
+  right: -25px;
+  bottom: -20px;
+  padding: 70px 60px;
+}
 .p-tag h4{
-    font-size: 33px;
-   }
+  font-size: 36px;
+}
 .p-tag span{
-    font-size: 12px;
-   }
+  font-size: 14px;
+}
 
 .projects .offset-2 {
-    margin-left:auto;
-    }
-.pro-right {
-   margin-top: 61px;
-   margin-left: -10px;
-    }
-.pro-right h2 {
-    padding-right: 412px;
-    margin-right: 352px;
-    } 
-.pro-right p {
-    margin-right: 365px;
-    padding-right: 388px;
-  }
-  .choose .container{
-   width: 339px;
-  }
-  .about .container{
-    width: 339px;
-  }
-  .about img{
-    width: 100%;
-    margin-left: -27px;
-    margin-bottom: 30px;
-    margin-top: 59px;
-  }
-  .testimonial .container {
-    width: 375px;
-    margin: 0px -85px;
+  margin-left: auto;
+  margin-right: -130px;
 }
-  .t-s .offset-4 {
-     margin-left: 0%; 
+.projects .row>*{
+  width: auto;
 }
+.pro-right{ 
+   margin-top: 70px;
+   margin-left: 26px;
+}
+/*.icon-texts .row>*{
+    width: 0;
+}*/
 
-  .home-blog .container{
-    width: 95%;
-  }
-  .home-blog h2{
-    margin-left: 48px;
-  }
-  .im-tx img{
-    width: 100%;
-  }
-  .footer .container{
-    width: 339px;
-  }
-  .i-g{
-    padding: 21px 20px;
-  }
-  .arow-up ul li i{
-    left: 311px;
-    }
+  
   }
