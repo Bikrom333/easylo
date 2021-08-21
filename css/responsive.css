@@ -70,18 +70,18 @@
     width: auto;
   }
   .sticky{
-    width: 320px;
+    width: 360px;
   }
   .banner{
-    width: 320px;
-    height: 1130px;
+    width: 360px;
+    height: 1214px;
 
   }
   .banner .offset-1{
     margin-left: 0px;
   }
   .banner-left, .banner-right {
-    height: 100vh;
+    height: 90vh;
   }
   .b-title{
     font-size: 40px;
@@ -90,7 +90,7 @@
     font-size: 18px;
   }
   .banner .offset-2{
-    margin-left: -30px;
+    margin-left: -10px;
   }
   .form-box{
     margin: 10px 22px;
@@ -105,7 +105,7 @@
     padding: 0px 9px;
   }
   .bu-content{
-    width: 320px;
+    width: 340px;
   }
   .bu-content p{
     margin: 0px;
@@ -122,9 +122,15 @@
     bottom: -25px;
     right: 0;
   }
+  .projects{
+    width: 360;
+  }
   .projects .offset-2{
     margin-left: auto;
   } 
+  .img-fluid{
+    max-width: 116%;
+  }
   .pro-right{
     width: 290px;
     margin-top: 75px;
@@ -201,7 +207,7 @@
     width: 310px;
   }
   .arow-up ul li i{
-    left: 260px;
+    left: 263px;
   }
 
   
