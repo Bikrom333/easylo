@@ -63,134 +63,146 @@
 @media (min-width: 320px) and (max-width: 480px) {
   
   /* CSS */
-
- 
-  
-.navbar-toggler{
-    margin-right: -280px;
-    mainrg-left: 185px;
-}
-
-.banner {
-  width: 1407px;
-    height: 200vh;
-}
-.banner .container{
-   /* width: auto;*/
-}
-.banner-left, .banner-right {
-    height: 87vh;
+  header .container{
+    width: auto;
   }
-.b-title{
-    font-size: 61px;
-    margin: 0px 170px;
-    
+  header .row{
+    width: auto;
   }
-.line{
-    margin: 28px 170px;
+  .sticky{
+    width: 320px;
+  }
+  .banner{
+    width: 320px;
+    height: 1130px;
 
   }
-.b-text{
-    font-size: 20px;
+  .banner .offset-1{
+    margin-left: 0px;
+  }
+  .banner-left, .banner-right {
+    height: 100vh;
+  }
+  .b-title{
+    font-size: 40px;
+  }
+  .b-text{
+    font-size: 18px;
+  }
+  .banner .offset-2{
+    margin-left: -30px;
+  }
+  .form-box{
+    margin: 10px 22px;
+    padding: 71px 5px 35px 5px;
+  }
+  .f-header {
+    padding: 0px;
+    text-align: center
+  }
+  .f-header h2{
+    font-size: 30px;
+    padding: 0px 9px;
+  }
+  .bu-content{
+    width: 320px;
+  }
+  .bu-content p{
+    margin: 0px;
+    padding: 0px;
+  }
+  .bu-icon{
+    display: block;
+  }
+  .pro-left{
+    width: 290px;
+  }
+  .p-tag{
+    padding: 10px 15px;
+    bottom: -25px;
+    right: 0;
+  }
+  .projects .offset-2{
+    margin-left: auto;
+  } 
+  .pro-right{
+    width: 290px;
+    margin-top: 75px;
+  }
+  .pro-right h2{
+    font-size: 24px;
+    margin-right: 0px;
+  }
+  .pro-right p{
+    margin-right: 0px;
+  }
+  .row .dot-it.row>* {
+    width: auto;
+  }
+  .choose .container{
+    width: auto;
+  }
+  .about-text{
+    width: 320px;
+  }
+  .about-text h2{
+    font-size: 24px;
+  }
+  .about-text p{
+    margin-right: 25px;
+  }
+  .about .offset-1{
+    margin-left: auto;
+  }
+  .dot-text .row>*{
+    width: auto;
+  }
+  .about img {
+    margin-bottom: 30px;
+    margin-top: 70px;
+    width: 290px;
+  }
+  .testimonial .container{
+    width: auto;
+    margin-left: -86px;
+    padding: 0px 43px;
+  }
+  .items p{
+    font-size: 16px;
+    margin-right: 32px;
+  }
+  .items .row>*{
+    width: auto;
+  }
+  .items .p-c{
+    margin-left: 185px;
+    margin-top: -37px;
+  }
+  .im-tx{
+    display: block;
     text-align: center;
-    margin-left: -48px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-
   }
-.b-btn{
-  margin-left: 172px;
-}
-.form-box{
-  margin-top: -60px;
-  margin-left: 80px;
-  padding: 45px 25px 35px 25px;
-  margin-right: -98px;
-
-}
-.business .container{
-  margin-left: 99px;
-}
-.business .bu-content{
-   margin-left: -42px; 
-}
-.business .bu-icon{
-  margin-left: 130px;
-}
-
-.business h2{
-   font-size: 40px;
+  .im-tx .col-md-4{
+    width: auto;
   }
-.bu-content .line4{
-  margin-left: auto;
-}
-.business .bu-content p{
-  margin: 20px -149px;
-  text-align: center;
-  font-size: 14px
-}
-.bu-icon{
-  text-align: center; 
-  margin-left: 140px;
-  margin-left: -10px;
-}
-.projects{
-  width: 1406px;
-}
-/*.p-tag{
-    right: -94px;
+  .im-tx img{
+    width: 290px;
   }
-*/.img-fluid{
-  margin-left: 210px;
- }
-.pro-right{
-  margin-left: 20px;
-  margin-top: 86px;
-}
-
-.pro-right h2 {
-    margin-right: 150px;
-    padding-right: 150px;
-}
-.pro-right p{
-  margin-right: 166px;
-  padding-right: 189px;
-}
-.bu-icon{
-  text-align: left;
-}
-
-.img-fluid {
-  margin-left: 135px;
-  max-width: 170vh;
-  height: 130vh;
-}
-.p-tag {
-  right: -25px;
-  bottom: -20px;
-  padding: 70px 60px;
-}
-.p-tag h4{
-  font-size: 36px;
-}
-.p-tag span{
-  font-size: 14px;
-}
-
-.projects .offset-2 {
-  margin-left: auto;
-  margin-right: -130px;
-}
-.projects .row>*{
-  width: auto;
-}
-.pro-right{ 
-   margin-top: 70px;
-   margin-left: 26px;
-}
-/*.icon-texts .row>*{
-    width: 0;
-}*/
+  .footer .col-md-4{
+    width: auto;
+  }
+  .footer input{
+    width: 82%;
+  }
+  .i-g img{
+    padding: 21px 25px;
+  }
+  .f-c{
+    width: 310px;
+  }
+  .arow-up ul li i{
+    left: 260px;
+  }
 
   
   }

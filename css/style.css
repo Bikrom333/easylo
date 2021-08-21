@@ -149,7 +149,7 @@ header .container-fluid{
     line-height: 1.1;
     font-family: "Inter",sans-serif;
     position: relative;
-    padding-right: 104px;
+    /*padding-right: 104px;*/
 }
 .line{
 	height: 3px;
@@ -166,7 +166,7 @@ header .container-fluid{
     line-height: 1.6;
     font-weight: 500;
     padding-right: 86px;
-    margin-right: 62px;
+    /*margin-right: 62px;*/
 }
 
 .b-btn{
